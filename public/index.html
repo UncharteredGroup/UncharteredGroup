@@ -1,23 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="generator" content="GitLab Pages">
-    <title>Plain HTML site using GitLab Pages</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="navbar">
-      <a href="https://pages.gitlab.io/plain-html/">Plain HTML Example</a>
-      <a href="https://gitlab.com/pages/plain-html/">Repository</a>
-      <a href="https://gitlab.com/pages/">Other Examples</a>
-    </div>
+<html lang="en">
+    <head>
+        <title>Unchartered</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <h1>Hello World!</h1>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
 
-    <p>
-      This is a simple plain-HTML website on GitLab Pages, without any fancy static site generator.
-    </p>
-  </body>
+        <!-- CSS -->
+        <link href="assets/css/main.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    </head>
+    <body>
+        <div class="site" id="page">
+            <a class="skip-link sr-only" href="#main">Skip to content</a>
+
+            <!-- Options headline effects: .rotate | .slide | .zoom | .push | .clip -->
+            <section class="hero-section hero-section--image clearfix clip">
+                <div class="hero-section__wrap">
+                    <div class="hero-section__option">
+                        <img src="assets/images/pastures.jpg" alt="Hero section image">
+                    </div>
+                    <!-- .hero-section__option -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="offset-lg-2 col-lg-8">
+                                <div class="title-01 title-01--11 text-center">
+                                    <img src="assets/images/logo.png" width="250" style="border-radius: 7px;">
+                                    <h2 class="title__heading">
+                                        <span>Unchartered</span><br>
+                                        <strong class="hero-section__words">
+                                            <span class="title__effect is-visible">Ventures</span>
+                                            <span class="title__effect">Music</span>
+                                            <span class="title__effect">Design</span>
+                                            <span class="title__effect">FX</span>
+                                            <span class="title__effect">Digital</span>
+                                            <span class="title__effect">Events</span>
+                                        </strong>
+                                    </h2>
+                                    <div class="title__description">
+                                        
+                                    </div>
+
+                                    <!-- Options btn color: .btn-success | .btn-info | .btn-warning | .btn-danger | .btn-primary -->
+                                    <div class="title__action"><a href="about.html" class="btn btn-success">Enter the future!</a></div>
+                                </div> <!-- .title-01 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- <div class="button-group">
+        	<a href="index-color.html" class="btn btn-outline-success button-sm">Color</a>
+            <a href="index-slider.html" class="btn btn-outline-success button-sm">Slider</a>
+            <a href="index-video.html" class="btn btn-outline-success button-sm">Video Background</a>
+        </div> -->
+
+        <!-- JS -->
+        <script src="assets/js/plugins/animate-headline.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
-
