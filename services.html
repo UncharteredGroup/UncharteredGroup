@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Unchartered Group - Home</title>
+<title>Unchartered Group - Services</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unchartered Group">
@@ -12,9 +12,8 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
-<link href="plugins/icon-font/styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/services_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
 </head>
 
 <body>
@@ -33,16 +32,16 @@
 		<!-- Navigation -->
 		<nav class="main_nav justify-self-end text-right">
 			<ul>
-				<li class="active"><a href="#">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Us</a></li>
-				<li><a href="services.html">Services</a></li>
+				<li class="active"><a href="#">Services</a></li>
 				<!-- <li><a href="portfolio.html">Portfolio</a></li> -->
 				<!-- <li><a href="blog.html">Blog</a></li> -->
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 			
 			<!-- Search -->
-			<!-- <div class="search">
+			<div class="search">
 				<div class="search_content d-flex flex-column align-items-center justify-content-center">
 					<div class="search_button d-flex flex-column align-items-center justify-content-center">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -85,7 +84,7 @@
 					</form>
 
 				</div>
-			</div> -->
+			</div>
 		</nav>
 
 		<!-- Hamburger -->
@@ -101,9 +100,9 @@
 		<div class="menu menu_mm text-right">
 			<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
 			<ul class="menu_mm">
-				<li class="menu_mm active"><a href="#">Home</a></li>
+				<li class="menu_mm"><a href="index.html">Home</a></li>
 				<li class="menu_mm"><a href="about.html">About Us</a></li>
-				<li class="menu_mm"><a href="services.html">Services</a></li>
+				<li class="menu_mm active"><a href="services.html">Services</a></li>
 				<li class="menu_mm"><a href="portfolio.html">Portfolio</a></li>
 				<li class="menu_mm"><a href="blog.html">Blog</a></li>
 				<li class="menu_mm"><a href="contact.html">Contact</a></li>
@@ -115,129 +114,199 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(images/slider_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(images/home_background.jpg)"></div>
 		</div>
 		
-		<!-- Hero Slider -->
-		<div class="hero_slider_container">
-			
-			<!-- Slider -->
-			<div class="owl-carousel owl-theme hero_slider">
-
-				<!-- Slider Item -->
-				<!-- <div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
-					<span></span>
-					<span>Unchartered</span>
-					<span>GO!</span>
-					<span>into the future now!</span>
-				</div> -->
-
-				<!-- Slider Item -->
-				<!-- <div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
-					<span></span>
-					<span></span>
-					<span>GO!</span>
-					<span>Make it work!</span>
-				</div>-->
-
-				<!-- Slider Item -->
-				<!-- <div class="owl-item hero_slider_item item_1 d-flex flex-column align-items-center justify-content-center">
-					<span>x</span>
-					<span></span>
-					<span>GO!</span>
-					<span>Dream!</span>
-				</div> -->
-
-			</div>
-			
-			<!-- Hero Slider Navigation Left -->
-			<div class="hero_slider_nav hero_slider_nav_left">
-				<div class="hero_slider_prev d-flex flex-column align-items-center justify-content-center trans_200">
-					<i class="fas fa-chevron-left trans_200"></i>
+		<div class="home_title">
+			<h2>Services</h2>
+			<div class="next_section_scroll">
+				<div class="next_section nav_links" data-scroll-to=".service_boxes">
+					<i class="fas fa-chevron-down trans_200"></i>
+					<i class="fas fa-chevron-down trans_200"></i>
 				</div>
 			</div>
-
-			<!-- Hero Slider Navigation Right -->
-			<div class="hero_slider_nav hero_slider_nav_right">
-				<div class="hero_slider_next d-flex flex-column align-items-center justify-content-center trans_200">
-					<i class="fas fa-chevron-right trans_200"></i>
-				</div>
-			</div>
-
 		</div>
-
-		<div class="hero_side_text_container">
-			<div class="double_arrow_container d-flex flex-column align-items-center justify-content-center">
-				<div class="double_arrow nav_links" data-scroll-to=".icon_boxes">
-					<i class="fas fa-chevron-left trans_200"></i>
-					<i class="fas fa-chevron-left trans_200"></i>
-				</div>
-			</div>
-			<div class="hero_side_text">
-				<h2>Welcome to the future</h2>
-				<p>"You are somewhere in the future and you look much better than you look now." - Prophet Elvis Mbonye</p>
-			</div>
-		</div>
-		
-		<div class="next_section_scroll">
-			<div class="next_section nav_links" data-scroll-to=".icon_boxes">
-				<i class="fas fa-chevron-down trans_200"></i>
-				<i class="fas fa-chevron-down trans_200"></i>
-			</div>
-		</div>
-			
+	
 	</div>
 
-	<!-- Icon Boxes -->
+	<!-- Service Boxes -->
 
-	<div class="icon_boxes">
+	<div class="service_boxes">
+
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
-					<div class="icon_box_title">
-						<h1>Let's build you a website in minutes</h1>
-					</div>
-					<div class="button icon_box_button trans_200">
-						<a href="mailto:office@unchartered.xyz" class="trans_200">request quote</a>
-					</div>
-				</div>
+				<div class="col-lg-4 service_col">
 
-				<div class="col-lg-4 icon_box_col">
-
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Great team</h2>
-						<p>Our team is simply the best!</p>
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Great team</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
 					</div>
 
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Excellence in Design</h2>
-						<p>We deliver exciting quality that will leave you awestruck for a while.</p>
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Modern design</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
 					</div>
 
 				</div>
 
-				<div class="col-lg-4 icon_box_col">
+				<div class="col-lg-4 service_col">
 
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Online Marketing</h2>
-						<p>We grow your business by teaching you to do marketing the easy way.</p>
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Online marketing</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
 					</div>
 
-					<!-- Icon Box Item -->
-					<div class="icon_box_item">
-						<h2>Simplify Business</h2>
-						<p>Our biggest shipment is business systems that simplify the way you do business, making you more money faster.</p>
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Easy to use</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
 					</div>
-					
+
 				</div>
+
+				<div class="col-lg-4 service_col">
+
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Retina ready</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
+					</div>
+
+					<!-- Service Item -->
+					<div class="service_item">
+						<h2><a href="#">Responsive</a></h2>
+						<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit mattis effic iturut magna.</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Device -->
+
+	<div class="device">
+		
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-6 order-lg-1 order-2">
+					<div class="device_content">
+						<h1>A strong team with a strong background</h1>
+
+						<ul class="device_items">
+							<li class="device_item clearfix">
+								<span>01.</span>
+								<p>Si non ligula sodales vestibulum. Nam nec augue a leo ullam corper sollicitudin. Suspendisse mattis.</p>
+							</li>
+							<li class="device_item clearfix">
+								<span>02.</span>
+								<p>Malesuada tortor sit amet accumsan. Mauris eu elit quis enim pretium finibus. Integer tempor, augue.</p>
+							</li>
+							<li class="device_item clearfix">
+								<span>03.</span>
+								<p>Set lacinia cursus, nisl elit elementum magna, non blandit nisi ipsum vitae nulla.</p>
+							</li>
+						</ul>
+
+						<div class="button devices_button">
+							<a href="#">discover more</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-6 order-lg-2 order-1">
+					<div class="device_image">
+						<div class="device_image_background"></div>
+						<div class="device_image_container d-flex flex-column justify-content-end">
+							<img src="images/device.png" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Call to action 2 -->
+
+	<div class="cta_2">
+		<!-- image by: https://unsplash.com/@tentides -->
+		<div class="cta_2_background" style="background-image:url(images/cta_2.png)"></div>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-9">
+					<div class="cta_2_content">
+						<h1>What are you waiting for?</h1>
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. </span>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					<div class="cta_2_button_container">
+						<div class="button cta_2_button">
+							<a href="#">discover more</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
 
-	
+	<!-- Image Boxes -->
+
+	<div class="image_boxes">
+		
+		<div class="container">
+			<div class="row">
+				
+				<!-- Image Box -->
+				<div class="col-lg-4 image_box_col">
+					<div class="card trans_300">
+						<img class="card-img-top" src="images/image_box_1.jpg" alt="https://unsplash.com/@heysupersimi">
+						<div class="card-body">
+							<h3 class="card-title">One-click installation. Super easy to use</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. Sed nec dignissim purus.</p>
+							<a href="#" class="card-link">discover more</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Image Box -->
+				<div class="col-lg-4 image_box_col">
+					<div class="card trans_300">
+						<img class="card-img-top" src="images/image_box_2.jpg" alt="https://unsplash.com/@gabrielssantiago">
+						<div class="card-body">
+							<h3 class="card-title">All the elements inside +many more</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. Sed nec dignissim purus.</p>
+							<a href="#" class="card-link">discover more</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Image Box -->
+				<div class="col-lg-4 image_box_col">
+					<div class="card trans_300">
+						<img class="card-img-top" src="images/image_box_3.jpg" alt="https://unsplash.com/@anthonydelanoix">
+						<div class="card-body">
+							<h3 class="card-title">Documentation inside the pack</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. Sed nec dignissim purus.</p>
+							<a href="#" class="card-link">discover more</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 	<!-- Newsletter -->
 
@@ -250,23 +319,22 @@
 						<!-- Newsletter Title -->
 						<div class="newsletter_title">
 							<h1>Subscribe to our newsletter</h1>
-							<span>Sign up for exclusives, insights, awesome podcasts & giveaways, and so much more!</span>
+							<span>Cursus, enim a ultrices venenatis, ante magna varius.</span>
 						</div>
 						
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container">
-							<form action="https://xyz.us19.list-manage.com/subscribe/post?u=6cf92a2b66259af8ac0bbd575&amp;id=5d00a68691" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-							    	<div class="input-group">
-										<input type="email" name="EMAIL" class="newsletter_email email" id="mce-EMAIL" placeholder="Your e-mail address here" required="required" data-error="Valid email address is required.">
-										<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
-											subscribe
-										</button>
-									</div>
-									 <div id="mc_embed_signup_scroll">
-							   	 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6cf92a2b66259af8ac0bbd575_5d00a68691" tabindex="-1" value=""></div>
-							    </div>
+							<form action="#">
+								<div class="input-group">
+									<input type="email" class="newsletter_email" placeholder="Your e-mail address here" required="required" data-error="Valid email address is required.">
+									<button id="newsletter_form_submit" type="submit" class="button newsletter_submit_button trans_200" value="Submit">
+										subscribe
+									</button>
+								</div>
+									
 							</form>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -286,22 +354,26 @@
 
 						<!-- Logo -->
 						<div class="logo footer_logo">
-							<a href="#">UNCHARTERED<span></span></a>
+							<a href="index.html"><span>Unchartered</span></a>
 						</div>
 
-						<p>Distorting the time-space continuum</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. Sed nec dignissim purus.</p>
 						
 						<!-- Social -->
 						<div class="footer_social">
 							<ul>
-								<li><a href="//facebook.com/uncharteredgroup" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="//twitter.com/uncgroup" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fab fa-behance"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 							</ul>
 						</div>
 						
 						<!-- Copyright -->
 						<div class="footer_cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-&copy; <script>document.write(new Date().getFullYear());</script> Unchartered Group Limited.<br>All rights reserved <span style="opacity:0;display: none;"> | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 
 					</div>
@@ -309,32 +381,30 @@
 				</div>
 				
 				<!-- Footer Services -->
-				<div class="col-lg-4">
+				<div class="col-lg-2">
 
 					<div class="footer_col">
 						<div class="footer_col_title">Services</div>
 						<ul>
-							<li><a href="#">System Design</a></li>
-							<li><a href="#">Media Management</a></li>
-							<li><a href="#">Technology Projects</a></li>
-							<li><a href="#">Website Development</a></li>
+							<li><a href="#">Social media</a></li>
+							<li><a href="#">Management</a></li>
 							<li><a href="#">Branding</a></li>
 						</ul>
 					</div>
 					
-					<!-- <div class="footer_col">
+					<div class="footer_col">
 						<div class="footer_col_title">Aditionals</div>
 						<ul>
-							<li><a href="#">Corporate Strategy</a></li>
-							<li><a href="#">Management Consultancy</a></li>
-							<li><a href="#">Business Financing</a></li>
+							<li><a href="#">Social media</a></li>
+							<li><a href="#">Management</a></li>
+							<li><a href="#">Branding</a></li>
 						</ul>
-					</div> -->
+					</div>
 
 				</div>
 
 				<!-- Footer Menu -->
-				<!-- <div class="col-lg-2">
+				<div class="col-lg-2">
 
 					<div class="footer_col">
 						<div class="footer_col_title">Menu</div>
@@ -349,10 +419,10 @@
 						</ul>
 					</div>
 
-				</div> -->
+				</div>
 
 				<!-- Footer About -->
-				<!-- <div class="col-lg-2">
+				<div class="col-lg-2">
 
 					<div class="footer_col">
 						<div class="footer_col_title">About us</div>
@@ -364,6 +434,11 @@
 						</ul>
 					</div>
 
+				</div>
+
+				<!-- Footer Community -->
+				<div class="col-lg-2">
+
 					<div class="footer_col">
 						<div class="footer_col_title">Community</div>
 						<ul>
@@ -374,7 +449,7 @@
 						</ul>
 					</div>
 
-				</div> -->
+				</div>
 
 			</div>
 
@@ -401,7 +476,7 @@
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/services_custom.js"></script>
 </body>
 
 </html>
